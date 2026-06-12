@@ -1,0 +1,75 @@
+/* GALERIA DE FOTOS */
+.galeria-hero {
+  text-align: center;
+  padding: 45px 20px 10px;
+}
+
+.galeria-etiqueta {
+  display: inline-block;
+  background-color: #ffefe0;
+  color: #d35400;
+    padding: 6px 14px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.galeria-hero h2 {
+  font-size: 2.7rem;
+  margin-bottom: 18px;
+}
+
+.galeria-hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.galeria-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    max-width: 1200px;
+    margin: 0 auto 50px;
+    padding: 0 20px;
+}
+
+.foto-card {
+    width: 220px;
+    background-color: #fff4d6;
+    border-radius: 22px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease;
+}
+
+.foto-card:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+.foto-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  object-position: center top;
+  display: block;
+}
+
+.foto-info {
+  padding: 12px 16px 18px;
+}
+
+.foto-info span {
+  color: #e74c3c;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.foto-info h3 {
+    margin-top: 8px;
+    font-size: 1rem;
+    line-height: 1.3;
+}
+
