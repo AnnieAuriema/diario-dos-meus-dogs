@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,132 +8,146 @@
     <meta name="description" content="Diário de Costelinha & Slash - Os Doguinhos Caramelo">
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
     <header>
         <nav>
-            <span class="logo-img"><img src="imagens/dogs na janela.jpeg"></span>
-            <ul>
+            <span class="logo-img">
+                <img src="imagens/dogs na janela.jpeg" alt="Costelinha e Slash"></span>
+            <button class="menu-toggle" onclick="abrirMenu()">☰</button>
+            <ul class="menu" id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="galeria.html">Arquivos Confidenciais</a></li>
                 <li><a href="acontecimentos.html">Dossiês</a></li>
+                <li><a href="https://github.com/AnnieAuriema" target="_blank">Github</a></li>
             </ul>
-            <a href="https://github.com/AnnieAuriema" class="github" target="_blank" rel="noopener noreferrer">Github</a>
         </nav>
     </header>
     <main>
         <div class="principal">
             <section class="hero">
-    <div class="hero-conteudo">
+                <div class="hero-conteudo">
                     <span class="destaque marron">ARQUIVOS CONFIDENCIAIS • ACESSO LIBERADO</span>
-                        <h1>Costelinha & Slash: fofura, bagunça e cara de inocente!</h1><hr>
-                        <p class="hero-subtitulo"> Bem-vindo ao nosso diário! Aqui você acompanha cochilos suspeitos, crimes contra almofadas, tentativas de ganhar comida extra e muita cara de inocente.</p>
-        <div class="hero-botoes">
-            <a href="galeria.html" class="botao-hero">🔎 Ver provas</a>
-            <a href="acontecimentos.html" class="botao-secundario">📂 Abrir dossiês</a>
-        </div>
-    </div>
-         <div class="hero-imagens-conteiner">       
-            <figure><img src="imagens/imagens_slash/slash carão.jpg" ></figure>
-            <figure><img src="imagens/imagens_telinha/telinha hallo.jpeg"></figure>
-            <figure><img src="imagens/imagens_slash/slash junino.jpeg"></figure>
-            <figure><img src="imagens/dogs criminal.jpeg"></figure>
-            <figure><img src="imagens/imagens_telinha/Telinha natal.jpeg"></figure>
-            <figure><img src="imagens/imagens_telinha/telinha votando.jpeg"></figure>
-            <figure><img src="imagens/imagens_telinha/Telinha abc.jpeg"></figure>
-            <figure><img src="imagens/imagens_slash/slash hallo.jpeg"></figure>
-            <figure><img src="imagens/imagens_slash/Slash dia dos pais.jpeg"></figure>
-        </div>     
+                    <h1>Costelinha & Slash: fofura, bagunça e cara de inocente!</h1>
+                    <hr>
+                    <p class="hero-subtitulo"> Bem-vindo ao nosso diário! Aqui você acompanha cochilos suspeitos, crimes
+                        contra almofadas, tentativas de ganhar comida extra e muita cara de inocente.</p>
+                    <div class="hero-botoes">
+                        <a href="galeria.html" class="botao-hero">🔎 Ver provas</a>
+                        <a href="acontecimentos.html" class="botao-secundario">📂 Abrir dossiês</a>
+                    </div>
+                </div>
+                <div class="hero-imagens-conteiner">
+                    <figure><img src="imagens/imagens_slash/slash carão.jpg"></figure>
+                    <figure><img src="imagens/imagens_telinha/telinha hallo.jpeg"></figure>
+                    <figure><img src="imagens/imagens_slash/slash junino.jpeg"></figure>
+                    <figure><img src="imagens/dogs criminal.jpeg"></figure>
+                    <figure><img src="imagens/imagens_telinha/Telinha natal.jpeg"></figure>
+                    <figure><img src="imagens/imagens_telinha/telinha votando.jpeg"></figure>
+                    <figure><img src="imagens/imagens_telinha/Telinha abc.jpeg"></figure>
+                    <figure><img src="imagens/imagens_slash/slash hallo.jpeg"></figure>
+                    <figure><img src="imagens/imagens_slash/Slash dia dos pais.jpeg"></figure>
+                </div>
             </section>
         </div>
-            <section class="noticias">
-    <header class="noticias-cabecalho">
-            <span class="destaque marrom">Plantão Caramelo</span>
+        <section class="noticias">
+            <header class="noticias-cabecalho">
+                <span class="destaque marrom">Plantão Caramelistico</span>
                 <h2 class="noticias-titulo">Notícias urgentes da casinha</h2>
-                    <p class="noticias-subtitulo">Tudo que aconteceu, quase aconteceu ou foi dramaticamente aumentado por dois doguinhos muito suspeitos.</p>
-    </header>
-    <div class="noticias-card-container">
+                <p class="noticias-subtitulo">Tudo que aconteceu, quase aconteceu ou foi dramaticamente aumentado por
+                    dois doguinhos muito suspeitos.</p>
+            </header>
+            <div class="noticias-card-container">
+                <!-- CARD 1 -->
+                <div class="noticias-card">
+                    <div class="noticias-card-topo">
+                        <span class="destaque vermelho">Caso #001</span>
+                        <p class="noticias-avaliacao">🐾 Suspeita: 98%</p>
+                    </div>
 
-    <!-- CARD 1 -->
-    <div class="noticias-card">
-        <div class="noticias-card-topo">
-            <span class="destaque vermelho">Caso #001</span>
-            <p class="noticias-avaliacao">🐾 Suspeita: 98%</p>
-        </div>
+                    <h3 class="noticias-titulo-card">O sumiço misterioso da almofada</h3>
+                    <p class="noticias-descricao">Testemunhas afirmam ter visto Costelinha próximo ao local.</p>
 
-        <h3 class="noticias-titulo-card">O sumiço misterioso da almofada</h3>
-        <p class="noticias-descricao">Testemunhas afirmam ter visto Costelinha próximo ao local.</p>
-
-        <div class="noticias-autor">
-            <img src="imagens/mamys.jpg">
-            <span class="noticias-autor-nome">Annie Auriema</span>
-        </div>
-    </div>
-
-    <!-- CARD 2 -->
-    <div class="noticias-card">
-        <div class="noticias-card-topo">
-            <span class="destaque vermelho">Caso #002</span>
-            <p class="noticias-avaliacao">🚨 Procurado: 98%</p>
-        </div>
-
-        <h3 class="noticias-titulo-card">Desaparecimento do último biscoito</h3>
-        <p class="noticias-descricao">Slash foi visto próximo ao pote vazio e recusou depoimento.</p>
-
-        <div class="noticias-autor">
-            <img src="imagens/junior.jpeg">
-            <span class="noticias-autor-nome">Carlos Júnior</span>
-        </div>
-    </div>
-    <!-- CARD 3 -->
-    <div class="noticias-card">
-        <div class="noticias-card-topo">
-            <span class="destaque vermelho">Caso #003</span>
-            <p class="noticias-avaliacao">🐾 Suspeita: 95%</p>
-        </div>
-            <h3 class="noticias-titulo-card">O sushi proibido</h3>
-                <p class="noticias-descricao">Slash aproveitou um momento de distração da família e experimentou sushi com shoyu.</p>
-        <div class="noticias-autor">
-            <img src="imagens/Alefe.jpeg">
-            <span class="noticias-autor-nome">Alefe Andrade</span>
-        </div>
-    </div>
-    <!-- CARD 4 -->
-    <div class="noticias-card">
-        <div class="noticias-card-topo">
-            <span class="destaque vermelho">Caso #004</span>
-            <p class="noticias-avaliacao">🐾 Suspeita: 99%</p>
-        </div>
-            <h3 class="noticias-titulo-card">O banho misterioso</h3>
-                <p class="noticias-descricao">Durante sua primeira visita à pet shop, Slash chorou até ser buscado depois do banho.</p>
-        <div class="noticias-autor">
-            <img src="imagens/Arlyson.jpeg">
-            <span class="noticias-autor-nome">Arlyson Andrade</span>
-        </div>
-    </div>
-</div>
-</section>
-    </main>
-        <footer>
-            <div class="footer-conteudo">
-                <div class="footer-logo">
-                    <h3>🐾 Costelinha & Slash</h3>
-                        <p>Arquivos confidenciais sobre dois doguinhos extremamente suspeitos.</p>
+                    <div class="noticias-autor">
+                        <img src="imagens/mamys.jpg">
+                        <span class="noticias-autor-nome">Annie Auriema</span>
+                    </div>
                 </div>
+
+                <!-- CARD 2 -->
+                <div class="noticias-card">
+                    <div class="noticias-card-topo">
+                        <span class="destaque vermelho">Caso #002</span>
+                        <p class="noticias-avaliacao">🚨 Procurado: 98%</p>
+                    </div>
+
+                    <h3 class="noticias-titulo-card">Desaparecimento do último biscoito</h3>
+                    <p class="noticias-descricao">Slash foi visto próximo ao pote vazio e recusou depoimento.</p>
+
+                    <div class="noticias-autor">
+                        <img src="imagens/junior.jpeg">
+                        <span class="noticias-autor-nome">Carlos Júnior</span>
+                    </div>
+                </div>
+                <!-- CARD 3 -->
+                <div class="noticias-card">
+                    <div class="noticias-card-topo">
+                        <span class="destaque vermelho">Caso #003</span>
+                        <p class="noticias-avaliacao">🐾 Suspeita: 95%</p>
+                    </div>
+                    <h3 class="noticias-titulo-card">O sushi proibido</h3>
+                    <p class="noticias-descricao">Slash aproveitou um momento de distração da família e experimentou
+                        sushi com shoyu.</p>
+                    <div class="noticias-autor">
+                        <img src="imagens/Alefe.jpeg">
+                        <span class="noticias-autor-nome">Alefe Andrade</span>
+                    </div>
+                </div>
+                <!-- CARD 4 -->
+                <div class="noticias-card">
+                    <div class="noticias-card-topo">
+                        <span class="destaque vermelho">Caso #004</span>
+                        <p class="noticias-avaliacao">🐾 Suspeita: 99%</p>
+                    </div>
+                    <h3 class="noticias-titulo-card">O banho misterioso</h3>
+                    <p class="noticias-descricao">Durante sua primeira visita à pet shop, Slash chorou até ser buscado
+                        depois do banho.</p>
+                    <div class="noticias-autor">
+                        <img src="imagens/Arlyson.jpeg">
+                        <span class="noticias-autor-nome">Arlyson Andrade</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-conteudo">
+            <div class="footer-logo">
+                <h3>🐾 Costelinha & Slash</h3>
+                <p>Arquivos confidenciais sobre dois doguinhos extremamente suspeitos.</p>
+            </div>
             <div class="footer-links">
                 <h4>Navegação</h4>
-                    <a href="index.html">Home</a>
-                    <a href="galeria.html">Arquivos Confidenciais</a>
-                    <a href="acontecimentos.html">Dossiês</a>
+                <a href="index.html">Home</a>
+                <a href="galeria.html">Arquivos Confidenciais</a>
+                <a href="acontecimentos.html">Dossiês</a>
             </div>
             <div class="footer-status">
                 <h4>Status da investigação</h4>
-                    <p>🐾 Casos resolvidos: 4</p>
-                    <p>🍪 Biscoitos desaparecidos: incontáveis</p>
-                    <p>🚨 Suspeitos presos: 0</p>
+                <p>🐾 Casos resolvidos: 4</p>
+                <p>🍪 Biscoitos desaparecidos: incontáveis</p>
+                <p>🚨 Suspeitos presos: 0</p>
             </div>
-            </div>
-            <div class="footer-copy">© 2026 Costelinha & Slash • Desenvolvido por Annie Auriema</div>
-                <p class="footer-piada">📂 Arquivo encerrado: nenhum biscoito foi devolvido durante a investigação.</p>
-        </footer>
-    </body>
+        </div>
+        <div class="footer-copy">© 2026 Costelinha & Slash • Desenvolvido por Annie Auriema</div>
+        <p class="footer-piada">📂 Arquivo encerrado: nenhum biscoito foi devolvido durante a investigação.</p>
+    </footer>
+    <script>
+        function abrirMenu() {
+            const menu = document.getElementById("menu");
+            menu.classList.toggle("ativo");
+        }
+    </script>
+</body>
+
 </html>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,28 +8,32 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="galeria.css">
 </head>
+
 <body>
   <header>
-        <nav>
-            <span class="logo-img"><img src="imagens/dogs na janela.jpeg"></span>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="galeria.html">Arquivos Confidenciais</a></li>
-                <li><a href="acontecimentos.html">Dossiês</a></li>
-            </ul>
-            <a href="https://github.com/AnnieAuriema" class="github" target="_blank" rel="noopener noreferrer">Github</a>
-        </nav>
-    </header>
+    <nav>
+      <span class="logo-img">
+        <img src="imagens/dogs na janela.jpeg" alt="Costelinha e Slash"></span>
+      <button class="menu-toggle" onclick="abrirMenu()">☰</button>
+      <ul class="menu" id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="galeria.html">Arquivos Confidenciais</a></li>
+        <li><a href="acontecimentos.html">Dossiês</a></li>
+        <li><a href="https://github.com/AnnieAuriema" target="_blank">Github</a></li>
+      </ul>
+    </nav>
+  </header>
   <main>
     <section class="galeria-hero">
       <span class="galeria-etiqueta">📸 Arquivo secreto</span>
-        <h2>Galeria dos Suspeitos</h2>
-          <p>Registros fotográficos de Costelinha & Slash sendo flagrados em momentos de fofura extrema, bagunça suspeita e carinhas de inocentes.</p>
+      <h2>Galeria dos Suspeitos</h2>
+      <p>Registros fotográficos de Costelinha & Slash sendo flagrados em momentos de fofura extrema, bagunça suspeita e
+        carinhas de inocentes.</p>
     </section>
     <section class="galeria-container">
       <div class="foto-card">
         <a href="imagens/matando a saudade do maninho.jpeg" target="_blank">
-        <img src="imagens/matando a saudade do maninho.jpeg" alt="Costelinha e Slash"></a>
+          <img src="imagens/matando a saudade do maninho.jpeg" alt="Costelinha e Slash"></a>
         <div class="foto-info">
           <span>Caso #001</span>
           <h3>Flagrados sendo fofos</h3>
@@ -36,7 +41,7 @@
       </div>
       <div class="foto-card">
         <a href="imagens/imagens_slash/Slash fazendo pose.jpeg" target="_blank">
-        <img src="imagens/imagens_slash/Slash fazendo pose.jpeg" alt="Slash"></a>
+          <img src="imagens/imagens_slash/Slash fazendo pose.jpeg" alt="Slash"></a>
         <div class="foto-info">
           <span>Caso #002</span>
           <h3>Advogado dos Petiscos</h3>
@@ -44,7 +49,7 @@
       </div>
       <div class="foto-card">
         <a href="imagens/imagens_telinha/telinha fazendo bagunça.jpeg" target="_blank">
-        <img src="imagens/imagens_telinha/telinha fazendo bagunça.jpeg" alt="Costelinha"></a>
+          <img src="imagens/imagens_telinha/telinha fazendo bagunça.jpeg" alt="Costelinha"></a>
         <div class="foto-info">
           <span>Caso #003</span>
           <h3>Possível roubo de petisco</h3>
@@ -52,15 +57,15 @@
       </div>
       <div class="foto-card">
         <a href="imagens/os tres fofoqueiros.jpeg" target="_blank">
-        <img src="imagens/os tres fofoqueiros.jpeg" alt="Costelinha e Slash e mamys"></a>
+          <img src="imagens/os tres fofoqueiros.jpeg" alt="Costelinha e Slash e mamys"></a>
         <div class="foto-info">
           <span>Caso #004</span>
           <h3>Central de Monitoramento Noturno</h3>
         </div>
       </div>
-        <div class="foto-card">
-          <a href="imagens/os dogs juntinhos.jpeg" target="_blank">
-        <img src="imagens/os dogs juntinhos.jpeg" alt="Costelinha e Slash"></a>
+      <div class="foto-card">
+        <a href="imagens/os dogs juntinhos.jpeg" target="_blank">
+          <img src="imagens/os dogs juntinhos.jpeg" alt="Costelinha e Slash"></a>
         <div class="foto-info">
           <span>Caso #005</span>
           <h3>Fazendo uma cãoferência</h3>
@@ -68,7 +73,7 @@
       </div>
       <div class="foto-card">
         <a href="imagens/imagens_telinha/telinha derrubou junior da cama.jpeg" target="_blank">
-        <img src="imagens/imagens_telinha/telinha derrubou junior da cama.jpeg" alt="Telinha e junior"></a>
+          <img src="imagens/imagens_telinha/telinha derrubou junior da cama.jpeg" alt="Telinha e junior"></a>
         <div class="foto-info">
           <span>Caso #006</span>
           <h3>Não foi eu</h3>
@@ -76,7 +81,7 @@
       </div>
       <div class="foto-card">
         <a href="imagens/imagens_slash/Slash chique no banho.jpeg" target="_blank">
-        <img src="imagens/imagens_slash/Slash chique no banho.jpeg" alt="Slash de toca"></a>
+          <img src="imagens/imagens_slash/Slash chique no banho.jpeg" alt="Slash de toca"></a>
         <div class="foto-info">
           <span>Caso #007</span>
           <h3>Estou trabalhando disfarçado</h3>
@@ -84,15 +89,15 @@
       </div>
       <div class="foto-card">
         <a href="imagens/dogs e pai.jpg" target="_blank">
-        <img src="imagens/dogs e pai.jpg" alt="Costelinha e Slash e pai"></a>
+          <img src="imagens/dogs e pai.jpg" alt="Costelinha e Slash e pai"></a>
         <div class="foto-info">
           <span>Caso #008</span>
           <h3>Obtendo reforços na patrulha</h3>
         </div>
       </div>
       <div class="foto-card">
-          <a href="imagens/imagens_slash/Slash dia dos pais.jpeg" target="_blank">
-        <img src="imagens/imagens_slash/Slash dia dos pais.jpeg" alt="Slash dia dos pais"></a>
+        <a href="imagens/imagens_slash/Slash dia dos pais.jpeg" target="_blank">
+          <img src="imagens/imagens_slash/Slash dia dos pais.jpeg" alt="Slash dia dos pais"></a>
         <div class="foto-info">
           <span>Caso #009</span>
           <h3>Agente infiltrado na festa do Dia dos Pais</h3>
@@ -100,7 +105,7 @@
       </div>
       <div class="foto-card">
         <a href="imagens/imagens_telinha/Telinha dia dos pais.jpeg" target="_blank">
-        <img src="imagens/imagens_telinha/Telinha dia dos pais.jpeg" alt="Telinha dia dos pais"></a>
+          <img src="imagens/imagens_telinha/Telinha dia dos pais.jpeg" alt="Telinha dia dos pais"></a>
         <div class="foto-info">
           <span>Caso #010</span>
           <h3>Departamento de Assuntos Paternos</h3>
@@ -108,7 +113,7 @@
       </div>
       <div class="foto-card">
         <a href="imagens/imagens_slash/Slash votando.jpeg" target="_blank">
-        <img src="imagens/imagens_slash/Slash votando.jpeg" alt="Slash votando"></a>
+          <img src="imagens/imagens_slash/Slash votando.jpeg" alt="Slash votando"></a>
         <div class="foto-info">
           <span>Caso #011</span>
           <h3>🍖 Promessas de petiscos em troca de votos</h3>
@@ -116,35 +121,42 @@
       </div>
       <div class="foto-card">
         <a href="imagens/imagens_telinha/telinha votando.jpeg" target="_blank">
-        <img src="imagens/imagens_telinha/telinha votando.jpeg" alt="Costelinha votando"></a>
+          <img src="imagens/imagens_telinha/telinha votando.jpeg" alt="Costelinha votando"></a>
         <div class="foto-info">
           <span>Caso #012</span>
           <h3>🗳️ Departamento de Assuntos Eleitorais</h3>
         </div>
       </div>
     </section>
-    </main>
-    <footer>
-            <div class="footer-conteudo">
-                <div class="footer-logo">
-                    <h3>🐾 Costelinha & Slash</h3>
-                        <p>Arquivos confidenciais sobre dois doguinhos extremamente suspeitos.</p>
-                </div>
-            <div class="footer-links">
-                <h4>Navegação</h4>
-                    <a href="index.html">Home</a>
-                    <a href="galeria.html">Arquivos Confidenciais</a>
-                    <a href="acontecimentos.html">Dossiês</a>
-            </div>
-            <div class="footer-status">
-                <h4>Status da investigação</h4>
-                    <p>🐾 Casos resolvidos: 4</p>
-                    <p>🍪 Biscoitos desaparecidos: incontáveis</p>
-                    <p>🚨 Suspeitos presos: 0</p>
-            </div>
-            </div>
-            <div class="footer-copy">© 2026 Costelinha & Slash • Desenvolvido por Annie Auriema</div>
-                <p class="footer-piada">📂 Arquivo encerrado: nenhum biscoito foi devolvido durante a investigação.</p>
-        </footer>
+  </main>
+  <footer>
+    <div class="footer-conteudo">
+      <div class="footer-logo">
+        <h3>🐾 Costelinha & Slash</h3>
+        <p>Arquivos confidenciais sobre dois doguinhos extremamente suspeitos.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navegação</h4>
+        <a href="index.html">Home</a>
+        <a href="galeria.html">Arquivos Confidenciais</a>
+        <a href="acontecimentos.html">Dossiês</a>
+      </div>
+      <div class="footer-status">
+        <h4>Status da investigação</h4>
+        <p>🐾 Casos resolvidos: 4</p>
+        <p>🍪 Biscoitos desaparecidos: incontáveis</p>
+        <p>🚨 Suspeitos presos: 0</p>
+      </div>
+    </div>
+    <div class="footer-copy">© 2026 Costelinha & Slash • Desenvolvido por Annie Auriema</div>
+    <p class="footer-piada">📂 Arquivo encerrado: nenhum biscoito foi devolvido durante a investigação.</p>
+  </footer>
+  <script>
+    function abrirMenu() {
+      const menu = document.getElementById("menu");
+      menu.classList.toggle("ativo");
+    }
+  </script>
 </body>
+
 </html>
